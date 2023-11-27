@@ -1,0 +1,13 @@
+artifacts:
+  nlp:
+    path: model.pkl
+    type: model
+stages:
+  train:
+    cmd: python train.py ${epochs}
+    metrics:
+    - dvclive/metrics.json:
+        remote: named-remote-1
+    plots:
+    - dvclive/plots:
+        remote: named-remote-2

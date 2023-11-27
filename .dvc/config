@@ -1,0 +1,4 @@
+['remote "named-remote-1"']
+    url = https://remote.dvc.org/mixed-dvc-versions/named-remote-1
+['remote "named-remote-2"']
+    url = https://remote.dvc.org/mixed-dvc-versions/named-remote-2
